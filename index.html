@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <div class="logo">Port<span>folio</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Hi, I'm <span>Blay Andoh Godfred</span></h1>
+            <p class="animate-text">Web Developer & Designer</p>
+            <a href="#contact" class="btn animate-btn">Hire Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="Profile Image" class="profile-img">
+            <div class="circle-animation"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/profile.jpg" alt="About Image" class="about-img">
+            </div>
+            <div class="about-text">
+                <h3>Who am I?</h3>
+                <p>I'm a passionate web developer with expertise in creating modern, responsive websites. I love turning ideas into reality through code.</p>
+                <div class="about-info">
+                    <div class="info-item">
+                        <span>Name:</span>
+                        <p>Your Name</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Email:</span>
+                        <p>your.email@example.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span>Experience:</span>
+                        <p>X Years</p>
+                    </div>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress html" data-width="95"></div>
+                </div>
+            </div>
+            <!-- Add more skills similarly -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/projects/project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Project Title</h3>
+                    <p>Project description goes here.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Add more project cards -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
